@@ -3,7 +3,7 @@ from matplotlib import image
 import pandas as pd
 import plotly.express as px
 st.header("covid :red[india]")
-df=pd.read_csv("E:\\VK\\datasets\\covid.india.csv")
+df=pd.read_csv("resources\covid.india.csv")
 st.dataframe(df)
 Nam = st.selectbox("Select the Name of state:", df['State/UTs'].unique())
 col1,col2=st.columns(2)
