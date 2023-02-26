@@ -1,5 +1,5 @@
 import streamlit as st
-from matplotlib import image
+#from matplotlib import image
 #image=image.imread(project_ass1/resources/vasanth.jpeg")
 #st.image(image,width=200)
 st.header(":blue[VASANTH K]")
