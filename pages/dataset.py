@@ -2,9 +2,9 @@ import streamlit as st
 from matplotlib import image
 import pandas as pd
 import plotly.express as px
-image=image.imread("C:\\Users\\vasan\\Downloads\\R.jfif")
+image=image.imread("resouces\R.jfif")
 st.image(image)
-df=pd.read_csv("E:\\VK\\datasets\\pokemon.csv")
+df=pd.read_csv("resources\pokemon.csv")
 st.dataframe(df)
 Nam = st.selectbox("Select the Name of Pokemon:", df['Name'].unique())
 col1,col2=st.columns(2)
